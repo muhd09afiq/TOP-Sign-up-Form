@@ -25,7 +25,7 @@ img {
     flex-direction: column;
 }
 
-.topInfo .form .submitButton {
+.topInfo, .form, .submitButton {
     width: 100%;
 }
 
@@ -33,6 +33,15 @@ img {
     height: 36%;
     background-color: red;
 }
+
+.topInfo p {
+    font-size: 2rem;
+    position: relative;
+    top: 35%;
+    padding-left: 4%;
+}
+
+.topInfo 
 
 .form {
     height: 30%;
