@@ -1,6 +1,9 @@
 body {
-    display: flex;
     margin: 0;
+}
+
+.container {
+    display: flex;
 }
 
 .imgContainer {
@@ -16,9 +19,27 @@ img {
 }
 
 .rightContainer {
+    width: 60vw;
     border: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.topInfo .form .submitButton {
+    width: 100%;
 }
 
 .topInfo {
+    height: 36%;
+    background-color: red;
+}
 
+.form {
+    height: 30%;
+    background-color: blue;
+}
+
+.submitButton {
+    height: calc(100% - 36% - 30%);
+    background-color: green;
 }
