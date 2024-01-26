@@ -1,71 +1,98 @@
 :root {
-    --img-container-width: 35vw;
-    --top-bottom-color: rgb(223, 229, 231);
+  --img-container-width: 35vw;
+  --top-bottom-color: rgb(223, 229, 231);
 }
 
 body {
-    margin: 0;
+  margin: 0;
 }
 
 body {
-    font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  }
+  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
 
 .container {
-    display: flex;
-    max-width: 80%;
-    margin: auto;
+  display: flex;
+  max-width: 80%;
+  margin: auto;
 }
 
 .imgContainer {
-    width: var(--img-container-width);
-    height: 100vh;
+  width: var(--img-container-width);
+  height: 100vh;
 }
 
 img {
-    width: 100%;
-    /* max-height: 100%; */
-    height: 100%;
-    display: block;
+  width: 100%;
+  /* max-height: 100%; */
+  height: 100%;
+  display: block;
 }
 
 .rightContainer {
-    width: calc(100vw - --img-container-width);
-    display: flex;
-    flex-direction: column;
+  width: calc(100vw - --img-container-width);
+  display: flex;
+  flex-direction: column;
 }
 
-.topInfo, .form, .submitButton {
-    width: 100%;
+.topInfo,
+.form,
+.submitButton {
+  width: 100%;
 }
 
 .topInfo {
-    height: 36%;
-    background-color: rgb(223, 229, 231);
+  height: 36%;
+  background-color: rgb(223, 229, 231);
 }
 
 .topInfo p {
-    font-size: 18px;
-    position: relative;
-    top: 40%;
-    padding-left: 4%;
-    margin: 0;
-    width: 80%;
-    font-weight: bold;
+  font-size: 18px;
+  position: relative;
+  top: 40%;
+  padding-left: 4%;
+  margin: 0;
+  width: 80%;
+  font-weight: bold;
 }
 
 .rightContainer .form {
-    height: 30%;
-    background-color: rgb(252, 252,  252);
-    box-shadow: 4px 4px 4px rgba(114, 111, 111, 0.5);
-    z-index: 1;
+  height: 30%;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 4px 4px 4px rgba(114, 111, 111, 0.5);
+  z-index: 1;
 }
 
 .rightContainer h3 {
-    padding-left: 4%;
+  padding-left: 4%;
 }
 
 .rightContainer .submitButton {
-    height: calc(100% - 36% - 30%);
-    background-color: var(--top-bottom-color);
+  height: calc(100% - 36% - 30%);
+  background-color: var(--top-bottom-color);
+}
+
+form {
+  display: flex;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+}
+
+p label {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  width: 20%;
+  padding: 0;
+  height: 10%;
+}
+
+form{
+    padding-left: 4%;
 }
