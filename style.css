@@ -105,3 +105,8 @@ input {
     border-color: #E5E7EB;
     width: 200px;
 }
+
+form button{
+    position: absolute;
+    bottom: 25%;
+}
