@@ -109,4 +109,17 @@ input {
 form button{
     position: absolute;
     bottom: 25%;
+    background-color: #596D48;
+    width: 200px;
+    height: 50px;
+    color: white;
 }
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
