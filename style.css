@@ -1,3 +1,8 @@
+@font-face {
+    font-family: norse;
+    src: url(Norse-Bold.otf);
+}
+
 :root {
   --img-container-width: 35vw;
   --top-bottom-color: rgb(223, 229, 231);
@@ -19,6 +24,7 @@ body {
 }
 
 .imgContainer {
+    position: relative;
   width: var(--img-container-width);
   height: 100vh;
 }
@@ -126,3 +132,12 @@ textarea {
   font-size: 100%;
 }
 
+.textLogo {
+    font-family: norse;
+    position: absolute;
+    z-index: 10;
+    color: white;
+    font-size: 5rem;
+    top: 20%;
+    left: 25%;
+}
