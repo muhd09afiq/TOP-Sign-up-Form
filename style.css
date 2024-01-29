@@ -151,3 +151,7 @@ textarea {
   top: 20%;
   left: 25%;
 }
+
+input:invalid {
+  border-color: red;
+}
