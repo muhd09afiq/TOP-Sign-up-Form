@@ -1,11 +1,21 @@
 @font-face {
-    font-family: norse;
-    src: url(Norse-Bold.otf);
+  font-family: norse;
+  src: url(Norse-Bold.otf);
+}
+
+@font-face {
+  font-family: lato;
+  src: url(Lato-Regular.ttf);
 }
 
 :root {
   --img-container-width: 35vw;
   --top-bottom-color: rgb(223, 229, 231);
+}
+
+label {
+  font-family: lato;
+  font-size: 0.8rem;
 }
 
 body {
@@ -24,7 +34,7 @@ body {
 }
 
 .imgContainer {
-    position: relative;
+  position: relative;
   width: var(--img-container-width);
   height: 100vh;
 }
@@ -100,28 +110,28 @@ fieldset {
   height: 5%;
 }
 
-form{
-    padding-left: 4%;
-    position: relative;
+form {
+  padding-left: 4%;
+  position: relative;
 }
 
 fieldset + fieldset {
-    margin-left: 10%;
+  margin-left: 10%;
 }
 
 input {
-    border-color: #E5E7EB;
-    width: 200px;
+  border-color: #e5e7eb;
+  width: 200px;
 }
 
-form button{
-    position: absolute;
-    top: 120%;
-    bottom: calc();
-    background-color: #596D48;
-    width: 200px;
-    height: 50px;
-    color: white;
+form button {
+  position: absolute;
+  top: 120%;
+  bottom: calc();
+  background-color: #596d48;
+  width: 200px;
+  height: 50px;
+  color: white;
 }
 
 button,
@@ -133,11 +143,11 @@ textarea {
 }
 
 .textLogo {
-    font-family: norse;
-    position: absolute;
-    z-index: 10;
-    color: white;
-    font-size: 5rem;
-    top: 20%;
-    left: 25%;
+  font-family: norse;
+  position: absolute;
+  z-index: 10;
+  color: white;
+  font-size: 5rem;
+  top: 20%;
+  left: 25%;
 }
