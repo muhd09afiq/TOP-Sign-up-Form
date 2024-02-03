@@ -1,0 +1,70 @@
+.rightContainer .form {
+  height: auto;
+  background-color: rgb(252, 252, 252);
+  box-shadow: 4px 4px 4px rgba(114, 111, 111, 0.5);
+  z-index: 1;
+}
+
+.rightContainer .submitButton {
+  height: calc(100% - 36% - 30%);
+  background-color: var(--top-bottom-color);
+  width: 100%;
+}
+
+form {
+  display: flex;
+  width: 100%;
+}
+
+button,
+input,
+select,
+textarea {
+  font-family: inherit;
+  font-size: 100%;
+}
+
+label {
+  position: relative;
+  display: inline-block;
+}
+
+p label {
+  width: 100%;
+}
+
+fieldset {
+  border: none;
+  width: 20%;
+  padding: 0;
+  height: 5%;
+}
+
+form {
+  padding-left: 4%;
+  position: relative;
+}
+
+fieldset + fieldset {
+  margin-left: 10%;
+}
+
+form button {
+  position: absolute;
+  top: 120%;
+  bottom: calc();
+  background-color: #596d48;
+  width: 200px;
+  height: 50px;
+  color: white;
+}
+
+label {
+  font-family: lato;
+  font-size: 0.8rem;
+}
+
+input {
+  border-color: #e5e7eb;
+  width: 200px;
+}
