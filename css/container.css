@@ -4,7 +4,7 @@
   margin: auto;
 }
 
-/* -----------------------------LEFTCONTAINER----------------------------- */
+/* || LEFT CONTAINER */
 .imgContainer {
   position: relative;
   width: var(--img-container-width);
@@ -27,17 +27,16 @@ img {
   height: 100%;
   display: block;
 }
+/* ... */
 
-/* <<<<<<<<<<<<<<<<<<<<<<<--LEFT CONTAINER-->>>>>>>>>>>>>>>>>>>>>>>> */
 
-/* -----------------------------RIGHT CONTAINER----------------------------- */
+/* || RIGHT CONTAINER */
 .rightContainer {
   width: calc(100vw - --img-container-width);
   display: flex;
   flex-direction: column;
 }
 
-/* ^^^^^^^^^^^^^^^^^^--TOP INFO--^^^^^^^^^^^^^^^^^^^^ */
 .topInfo {
   height: auto;
   background-color: rgb(223, 229, 231);
@@ -54,15 +53,8 @@ img {
   width: 80%;
   font-weight: bold;
 }
-/* ===================================== */
 
-
-/* ^^^^^^^^^^^^^^^^^^--TOP INFO--^^^^^^^^^^^^^^^^^^^^ */
 .rightContainer h3 {
   padding-left: 4%;
 }
-
-/* ===================================== */
-
-
-/* ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^--RIGHT CONTAINER--^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ */
+/* ... */
