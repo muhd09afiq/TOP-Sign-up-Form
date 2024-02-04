@@ -41,12 +41,14 @@ img {
 .paragraphContainer {
   background-color: rgb(223, 229, 231);
   width: 100%;
+  height: 30%;
 }
 
 .formContainer {
   background-color: rgb(252, 252, 252);
   box-shadow: 4px 4px 4px rgba(114, 111, 111, 0.5);
   z-index: 1;
+  height: 30%;
 }
 
 .buttonContainer {
