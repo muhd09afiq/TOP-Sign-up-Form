@@ -1,11 +1,11 @@
 @font-face {
   font-family: norse;
-  src: url(Norse-Bold.otf);
+  src: url(font/Norse-Bold.otf);
 }
 
 @font-face {
   font-family: lato;
-  src: url(Lato-Regular.ttf);
+  src: url(font/Lato-Regular.ttf);
 }
 
 :root {
@@ -14,7 +14,7 @@
 }
 
 body {
-  font-family: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
+  font-family: lato, system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif,
     "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   margin: 0;
 }
