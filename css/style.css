@@ -1,11 +1,13 @@
 @font-face {
   font-family: norse;
-  src: url(font/Norse-Bold.otf);
+  src: url(/font/Norse-Bold.otf);
 }
+
+
 
 @font-face {
   font-family: lato;
-  src: url(font/Lato-Regular.ttf);
+  src: url(/font/Lato-Regular.ttf);
 }
 
 :root {
