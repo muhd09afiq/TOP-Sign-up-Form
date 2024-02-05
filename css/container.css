@@ -2,13 +2,13 @@
   display: flex;
   width: min(1500px, 100vw);
   margin: auto;
+  height: 100vh;
 }
 
 /* || LEFT CONTAINER */
 .leftContainer {
   position: relative;
   width: var(--img-container-width);
-  height: 100vh;
 }
 
 .textLogo {
@@ -34,12 +34,10 @@ img {
 .rightContainer {
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
 .paragraphContainer {
   background-color: rgb(223, 229, 231);
-  height: 30%;
 }
 
 .formContainer {
@@ -54,12 +52,10 @@ img {
 
 .paragraphContainer p {
   font-size: 18px;
-  position: relative;
-  top: 40%;
   padding-left: 4%;
   padding-bottom: 3%;
   margin: 0;
-  width: 80%;
+  width: max(300px,80%);
   font-weight: bold;
 }
 
